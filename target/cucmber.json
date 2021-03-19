@@ -1,0 +1,95 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 292934000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is at the given Website",
+            "match": {
+              "location": "StepDefination.The_user_is_at_the_given_Website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6013102100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.launch()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be able change background color",
+        "description": "",
+        "id": "validate-the-automationproject-cucumber-feature;user-should-be-able-change-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410800,
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.StepDefination.Set_SkyBlue_Background_button_exists(StepDefination.java:33)\r\n\tat ✽.When Set SkyBlue Background button exists(features/Colorchange.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefination.Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefination.I_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "StepDefination.The_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the automationProject cucumber feature",
+    "description": "",
+    "id": "validate-the-automationproject-cucumber-feature",
+    "keyword": "Feature",
+    "uri": "features/Colorchange.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Suit"
+      }
+    ]
+  }
+]
